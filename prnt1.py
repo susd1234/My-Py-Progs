@@ -1,0 +1,63 @@
+print("test","check",end="")
+print("output")
+print("My","name","is",sep="_",end="*")
+print("Monty","Python",sep="*",end="*\n")
+print("Programming","Essentials","in", sep="***", end="...")
+print("Python")
+
+# Sample Solution
+
+###################
+print("original version:")
+###################
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+###################
+print("with fewer 'print()' invocations:")
+###################
+print("    *\n   * *\n  *   *\n *     *\n***   ***")
+print("  *   *\n  *   *\n  *****")
+###################
+print("higher:")
+###################
+print("        *")
+print("       * *")
+print("      *   *")
+print("     *     *")
+print("    *       *")
+print("   *         *")
+print("  *           *")
+print(" *             *")
+print("******     ******")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *******")
+###################
+print("doubled:")
+###################
+print("        *        "*2)
+print("       * *       "*2)
+print("      *   *      "*2)
+print("     *     *     "*2)
+print("    *       *    "*2)
+print("   *         *   "*2)
+print("  *           *  "*2)
+print(" *             * "*2)
+print("******     ******"*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *******     "*2)
